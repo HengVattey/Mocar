@@ -1,0 +1,24 @@
+@import "primeicons/primeicons.css";
+button.p-button {
+  min-width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  border: none;
+  
+}
+i{
+  font-size: 1.3rem;
+}
+
+
+.gif {
+  width: 200px; /* your gif size */
+  height: 200px;
+  background-color: #f5c842 !important; /* your desired color */
+  justify-content: center;
+  border-radius: 8px; /* optional */
+}
