@@ -1,0 +1,23 @@
+
+
+ .big-square-button {
+      width: 250px;           /* bigger width */
+      height: 250px;          /* bigger height */
+      background-color: #28a745;
+      color: white;
+      font-size: 32px;        /* bigger text */
+      font-weight: bold;
+      border: none;
+      border-radius: 16px;    /* optional rounded corners */
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .big-square-button:hover {
+      background-color: #218838;
+      transform: scale(1.05);  /* slight zoom on hover */
+    }
+

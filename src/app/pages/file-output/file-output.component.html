@@ -1,1 +1,100 @@
-<p>file-output works!</p>
+<!-- choose info  -->
+<div class="container battambang-regular text-format d-flex justify-content-between">
+ <div>
+    <div class="py-2">
+      <label for="fruit" class="me-5  ">ឈ្មោះអ្នកទទួល</label>
+      <select class="ms-4">
+        <option value="" disabled selected hidden></option> <!-- empty default -->
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="mango">Mango</option>
+        <option value="grape">Grape</option>
+      </select>
+    </div>
+    <div class="py-2">
+    <label for="fruit" class="me-5">មកពីស្ថាប័ន</label>
+    <select class="ms-5">
+      <option value="" disabled selected hidden></option> <!-- empty default -->
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="orange">Orange</option>
+      <option value="mango">Mango</option>
+      <option value="grape">Grape</option>
+    </select>
+    </div>
+<!-- comment in text area -->
+<div class=" battambang-regular text-format">
+ <label for="f">ខ្លឹមសារលិខិតក្រសួង/អង្គភាពដើម</label>
+  <div class="form-floating mt-2">
+
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+
+</div>
+</div>
+
+ </div>
+<!-- route file  -->
+ <div >
+    <div class="image-frame  ms-5 " id="imageFrame">
+      <span style="color: #999;">No image selected</span>
+    </div>
+    <div class="ms-5 mt-3">
+      <label for="fileUpload">រុករកបន្ថែម</label>
+    <input type="file" id="fileUpload" accept="image/*" hidden>
+   <button class="p-button p-component p-2 mx-3 text-format" >
+     បន្ថែម
+  </button>
+    </div>
+</div>
+</div>
+
+<!-- footer search  -->
+<div>
+<div class="form-floating ms-5 mt-3 d-flex battambang-regular text-format ">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+  <label for="floatingTextarea">ស្វែងរកឯកសារចូលនៅទីនេះ</label>
+
+  <button type="button" class="btn btn-light px-3 ms-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+  </button>
+
+</div>
+<div class="ms-5 mt-2 ">
+
+<table class="table  battambang-regular  text-format fs-5">
+  <thead>
+    <tr class="battambang-bold" >
+      <th scope="col">#</th>
+      <th scope="col">នាមត្រកូល</th>
+      <th scope="col">​ឈ្មោះ</th>
+      <th scope="col">តួនាទី</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>រិន</td>
+      <td>អមរ៉ា</td>
+      <td>និស្សិត</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>ហេង</td>
+      <td>វត្តី</td>
+      <td>និស្សិត</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>សាំ</td>
+      <td>រត្ថា</td>
+      <td>និស្សិត</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
+
